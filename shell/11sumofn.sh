@@ -5,6 +5,7 @@ sum=0
 
 echo "enter num"
 
+#using while
 /'
 while [ $i -le $n ]
 do
@@ -13,6 +14,8 @@ sum=$((sum+num))
 i=$((i+1))
 done
 '
+
+#using for
 for((i=1;i<=n;i++))
 do
 read num

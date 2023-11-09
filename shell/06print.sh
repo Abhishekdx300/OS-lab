@@ -1,4 +1,6 @@
 
+
+#using while loop
 /'
 i=1
 
@@ -9,7 +11,7 @@ echo $i
 i=$((i+1))
 done
 '
-
+#using for loop
 for((i=1;i<=100;i++))
 do
 echo $i
